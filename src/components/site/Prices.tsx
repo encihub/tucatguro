@@ -97,7 +97,7 @@ export const Prices = () => {
           <Slider
             min={1}
             max={4}
-            defaultValue={[1]}
+            value={[horas]}
             onValueChange={(newValue) => {
               setHoras(newValue[0]);
             }}
@@ -118,7 +118,7 @@ export const Prices = () => {
           <Slider
             min={1}
             max={8}
-            defaultValue={[2]}
+            value={[gatos]}
             onValueChange={(newValue) => {
               setGatos(newValue[0]);
             }}
