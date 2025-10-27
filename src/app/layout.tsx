@@ -1,7 +1,6 @@
 import './globals.css';
 import { Inter } from 'next/font/google';
 
-import { Toaster } from '@/components/ui/Toaster';
 import { TooltipProvider } from '@/components/ui/Tooltip';
 import { Toaster as Sonner } from '@/components/ui/Sonner';
 import { Header } from '@/components/site/Header';
@@ -22,7 +21,6 @@ export default function DashboardLayout({
     <html lang="es" className={inter.className}>
       <body>
         <TooltipProvider>
-          <Toaster />
           <Sonner />
           <div className="min-h-dvh grid grid-rows-[auto_1fr_auto]">
             <Header />
