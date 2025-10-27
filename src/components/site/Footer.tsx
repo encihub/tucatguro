@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 import { format } from '@/lib/phone';
 
 import { site } from '@/data/site';
@@ -9,7 +11,13 @@ export const Footer = () => (
       <div>
         <div className="flex items-center gap-2 font-extrabold text-lg">
           <span className="inline-flex size-8 items-center justify-center rounded-md text-primary">
-          <img src="logo.png" />
+            <Image
+              src="/logo.png"
+              alt="Logotipo de Tu catguro"
+              width={32}
+              height={32}
+              priority
+            />
           </span>
           <span className="tracking-tight">{site.title}</span>
         </div>

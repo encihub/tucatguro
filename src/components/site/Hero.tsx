@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 import { Button } from '@/components/ui/Button';
 
 import { site } from '@/data/site';
@@ -47,8 +49,16 @@ export const Hero = () => (
         </ul>
       </div>
       <div className="relative">
-        <div className="aspect-4/3 rounded-3xl bg-linear-to-br from-primary/15 via-accent/50 to-secondary/20 ring-1 ring-border shadow-xl">
-          <img className="h-auto max-w-full rounded-3xl" src="hero.png" />
+        <div className="aspect-4/3 rounded-3xl bg-linear-to-br from-primary/15 via-accent/50 to-secondary/20 ring-1 ring-border shadow-xl overflow-hidden">
+          <Image
+            src="/hero.png"
+            alt="Canguro felino jugando con un gato en casa"
+            width={1080}
+            height={809}
+            className="h-full w-full rounded-3xl object-cover"
+            priority
+            sizes="(min-width: 768px) 40vw, 90vw"
+          />
         </div>
         <div className="absolute -bottom-6 -left-6 hidden md:block rounded-2xl bg-card p-4 shadow-lg ring-1 ring-border">
           <p className="text-sm font-semibold">100% Catlover</p>

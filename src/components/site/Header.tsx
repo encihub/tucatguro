@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 import { Button } from '@/components/ui/Button';
 
 import { site } from '@/data/site';
@@ -7,7 +9,13 @@ export const Header = () => (
     <div className="container flex h-16 items-center justify-between gap-6">
       <a href="/" className="flex items-center gap-2 font-extrabold text-lg">
         <span className="inline-flex size-8 items-center justify-center rounded-md text-primary">
-          <img src="logo.png" />
+          <Image
+            src="/logo.png"
+            alt="Logotipo de Tu catguro"
+            width={32}
+            height={32}
+            priority
+          />
         </span>
         <span className="tracking-tight">{site.title}</span>
       </a>
