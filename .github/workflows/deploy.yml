@@ -1,8 +1,8 @@
 name: deploy
+
 on:
   push:
-    branches:
-      - main
+    branches: [main]
 
 permissions:
   contents: read
@@ -10,7 +10,7 @@ permissions:
   id-token: write
 
 concurrency:
-  group: 'pages'
+  group: pages
   cancel-in-progress: false
 
 jobs:
@@ -25,18 +25,12 @@ jobs:
         with:
           node-version: latest
           cache: 'pnpm'
-      - name: Cache dependencies
-        id: cache-dependencies
-        uses: actions/cache@v4
-        with:
-          path: node_modules
-          key: node-modules-${{ hashFiles('package-lock.json') }}
       - run: pnpm install
-      - run: pnpm build
       - uses: actions/configure-pages@v5
         with:
           static_site_generator: next
+      - run: pnpm build
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: "./public"
+          path: ./out
       - uses: actions/deploy-pages@v4
