@@ -22,7 +22,7 @@ export const Prices = () => {
       price: '10€/13€',
       features: [
         '10€ en temporada baja',
-        '13€ en temporada alta: (25/07 - 31/08, 24/12 - 01/01, 06/01 y Semana Santa)',
+        '13€ en temporada alta (25/07 - 31/08, 24/12 - 01/01, 06/01 y Semana Santa) y noches',
       ],
     },
     {
@@ -135,7 +135,7 @@ export const Prices = () => {
               setGatos(Number(event.target.value));
             }}
           />
-          <Label className="text-center text-3xl">
+          <Label className="text-center text-[4rem]">
             {Number(visita) + horas * 6 + (gatos - 1) * 4}€
           </Label>
           <Button asChild className="rounded-full px-6">

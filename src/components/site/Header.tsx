@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/Button';
 import { site } from '@/data/site';
 
 export const Header = () => (
-  <header className="sticky top-0 z-40 w-full border-b bg-background/80 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+  <header className="sticky top-0 z-40 w-full border-b bg-background/80 backdrop-blur supports-backdrop-filter:bg-background/60">
     <div className="container flex h-16 items-center justify-between gap-6">
       <a href="/" className="flex items-center gap-2 font-extrabold text-lg">
         <span className="inline-flex size-8 items-center justify-center rounded-md text-primary">

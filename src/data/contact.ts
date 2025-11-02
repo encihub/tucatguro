@@ -1,5 +1,4 @@
 export const contact = {
-  email: 'hola@tucatguro.com',
-  phone: '+34900123456',
-  address: 'El Encinar del Alberche',
+  hours: '09:00 - 20:00',
+  email: 'tucatguro@gmail.com',
 };

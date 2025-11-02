@@ -13,7 +13,7 @@ export const items = [
   },
   {
     title: 'Amor por lo natural',
-    desc: 'Nos adaptamos a tus horarios: mañanas, tardes, noches y fines de semana.',
+    desc: 'Promuevo entornos calmados y rutinas estables. Me adapto a tus horarios: mañanas, tardes, noches y fines de semana.',
   },
   {
     title: 'Transparencia',

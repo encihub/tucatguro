@@ -1,7 +1,5 @@
 import Image from 'next/image';
 
-import { format } from '@/lib/phone';
-
 import { site } from '@/data/site';
 import { contact } from '@/data/contact';
 
@@ -40,23 +38,20 @@ export const Footer = () => (
       <div>
         <h4 className="font-semibold">Contacto</h4>
         <ul className="mt-3 space-y-2 text-sm text-muted-foreground">
-          <li>{contact.address}</li>
           <li>
-            <a className="hover:underline" href={`mailto:${contact.email}`}>
-              {contact.email}
-            </a>
+            <strong>Horario de atención:</strong> {contact.hours}
           </li>
           <li>
-            <a className="hover:underline" href={`tel:${contact.phone}`}>
-              {format(contact.phone)}
+            <strong>Email:</strong>{' '}
+            <a className="hover:underline" href={`mailto:${contact.email}`}>
+              {contact.email}
             </a>
           </li>
         </ul>
       </div>
     </div>
     <div className="border-t py-6 text-center text-xs text-muted-foreground">
-      © {new Date().getFullYear()} {site.title}. Todos los derechos
-      reservados.
+      © {new Date().getFullYear()} {site.title}. Todos los derechos reservados.
     </div>
   </footer>
 );
