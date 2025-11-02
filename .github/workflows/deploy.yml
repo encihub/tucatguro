@@ -26,10 +26,10 @@ jobs:
           node-version: latest
           cache: 'pnpm'
       - run: pnpm install
+      - run: pnpm build
       - uses: actions/configure-pages@v5
         with:
           static_site_generator: next
-      - run: pnpm build
       - uses: actions/upload-pages-artifact@v3
         with:
           path: ./out
