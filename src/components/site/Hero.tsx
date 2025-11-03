@@ -51,7 +51,7 @@ export const Hero = () => (
       <div className="relative">
         <div className="aspect-4/3 rounded-3xl bg-linear-to-br from-primary/15 via-accent/50 to-secondary/20 ring-1 ring-border shadow-xl overflow-hidden">
           <Image
-            src="/hero.png"
+            src="hero.png"
             alt="Canguro felino jugando con un gato en casa"
             width={1080}
             height={809}

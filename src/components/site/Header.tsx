@@ -10,7 +10,7 @@ export const Header = () => (
       <a href="/" className="flex items-center gap-2 font-extrabold text-lg">
         <span className="inline-flex size-8 items-center justify-center rounded-md text-primary">
           <Image
-            src="/logo.png"
+            src="logo.png"
             alt="Logotipo de Tu catguro"
             width={32}
             height={32}
