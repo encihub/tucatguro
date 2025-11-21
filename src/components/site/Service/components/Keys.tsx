@@ -8,9 +8,9 @@ export const Keys = () => (
         reservar con 24h de antelación
       </li>
       <li>
-        • Retorno/recogida: se recogen previo al servicio y se retornan en mano
-        SIEMPRE (no se dejan dentro de casa ni en buzones), el retorno de las
-        llaves estará sujeto a disponibilidad
+        • Retorno/recogida: previo al servicio se recogen y tras el servicio se
+        devulven en mano SIEMPRE (no se dejan dentro de casa ni en buzones), el
+        retorno de las llaves estará sujeto a disponibilidad
       </li>
     </ul>
   </div>

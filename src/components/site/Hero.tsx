@@ -9,17 +9,17 @@ export const Hero = () => (
     <div className="grid gap-10 md:grid-cols-2 md:items-center">
       <div>
         <span className="inline-flex items-center rounded-full bg-primary/10 px-3 py-1 text-xs font-semibold text-primary">
-          Sur-Oeste de Madrid
+          Suroeste de Madrid
         </span>
         <h1 className="mt-4 text-4xl md:text-5xl font-extrabold tracking-tight">
           {site.motiv}
         </h1>
         <p className="mt-4 text-lg text-muted-foreground max-w-prose">
-          Cuido de tu gato con la misma dedicación y carino que tu le das cada
-          día. Realizo visitas a domiciolio para garantizar su bienestar
-          mientras estas fuera: alimentación, juegos, compania y administración
-          de medicación si lo necesita. Tu disfrutas de la tranquilidad de saber
-          que está en buenas manos, y el, de la calma de quedarse en su propio
+          Cuido de tu gato con la misma dedicación y cariño que tú le das cada
+          día. Realizo visitas a domicilio para garantizar su bienestar
+          mientras estás fuera: alimentación, juegos, compania y administración
+          de medicación si lo necesita. Tú disfrutas de la tranquilidad de saber
+          que está en buenas manos, y él, de la calma de quedarse en su propio
           hogar.
         </p>
         <div className="mt-8 flex flex-wrap gap-3">

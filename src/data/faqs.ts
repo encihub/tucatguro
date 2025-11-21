@@ -1,18 +1,20 @@
+import {site} from './site';
+
 export const items = [
   {
-    q: '¿Qué zonas cubre tucatguro?',
-    a: 'Villa del Prado y pueblos de alrededor. Si vives en un pueblo cercano consultame y vemos si puedo incluir tu zona en el servicio',
+    q: `¿Qué zonas cubre ${site.title}?`,
+    a: 'Villa del Prado y pueblos de alrededor. Si vives en un pueblo cercano consúltame y vemos si puedo incluir tu zona en el servicio',
   },
   {
-    q: '¿Ofreces descuantos para visitas regulares?',
-    a: 'Sí, consultame y te prepare un plan adaptado con una tarifa especia a tus necesidades y a las de tu gato.',
+    q: '¿Ofreces descuentos para visitas regulares?',
+    a: 'Sí, consúltame y te preparé un plan adaptado con una tarifa especial a tus necesidades y a las de tu gato.',
   },
   {
     q: '¿Atiendes gatos mayores o con enfermedades?',
     a: 'Atiendo todo tipo de gatos, incluidos los gatos mayores, tímidos o con necesidades especiales. Tengo experiencia en curas médicas y administración de medicación, así que también puedo cuidar gatos que requieren tratamientos específicos.',
   },
   {
-    q: '¿Cómo manejás los gatos tímidos o miedosos?',
+    q: '¿Cómo gestionas los gatos tímidos o miedosos?',
     a: 'Cada gato es único. Me adapto a su ritmo con paciencia y juegos. Nunca fuerzo las interacciones. El objetivo es que se sientan seguros y cómodos mientras reciben la atención que necesitan.',
   },
   {
@@ -33,6 +35,6 @@ export const items = [
   },
   {
     q: '¿Haces recomendaciones sobre alimentación, juegos o enriquecimiento para mi gato?',
-    a: 'Sí, puedo darte consejos personalizados para mantener a tu gato felíz y activo: rutinas, juguetes, juegos y consejos de alimentación.',
+    a: 'Sí, puedo darte consejos personalizados para mantener a tu gato feliz y activo: rutinas, juguetes, juegos y consejos de alimentación.',
   },
 ];

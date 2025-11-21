@@ -11,9 +11,9 @@ export const Schedule = () => (
         y tarde, o mañana, mediodía y tarde
       </li>
       <li>• Podemos acordar un horario especial previa consulta</li>
-      <li>• El 24 y 31 de Diciembre el horario es de 08:00 a 13:00</li>
+      <li>• El 24 y 31 de diciembre el horario es de 08:00 a 13:00</li>
       <li>
-        • El 25 de Diciembre y el 1 de Enero el horario es de 17:00 a 20:00
+        • El 25 de diciembre y el 1 de enero el horario es de 17:00 a 20:00
       </li>
     </ul>
   </div>

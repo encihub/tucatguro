@@ -15,7 +15,7 @@ export const Contact = () => (
           Según disponibilidad:
         </p>
         <ul className="mt-4 grid gap-2 text-sm text-muted-foreground">
-          <li>• Mínimo 2 días antes del servicio</li>
+          <li>• Al menos 2 días antes del servicio</li>
           <li>
             • 24h antes del servicio si ya se ha realizado algún servicio previo
             y dispongo de las llaves

@@ -9,14 +9,14 @@ export const items = [
   },
   {
     title: 'Profesionalidad',
-    desc: 'Experiencia en comportamineto felino, curas medicas y medicación',
+    desc: 'Experiencia en comportamiento felino, curas médicas y medicación',
   },
   {
     title: 'Amor por lo natural',
-    desc: 'Promuevo entornos calmados y rutinas estables. Me adapto a tus horarios: mañanas, tardes, noches y fines de semana.',
+    desc: 'Promuevo entornos calmados y rutinas estables. Me adapto a tus horarios: mañanas, tardes, noches y fines de semana',
   },
   {
     title: 'Transparencia',
-    desc: 'Cada visita es acompanada de fotos y actualizaciones diarias',
+    desc: 'Cada visita es acompañada de fotos y actualizaciones diarias',
   },
 ];

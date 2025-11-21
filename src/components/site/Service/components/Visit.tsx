@@ -5,12 +5,12 @@ export const Visit = () => (
       <li>
         • Te avisaré cuando llegue al domicilio (por Whatsapp o Telegram),
         simplemente por registrar la visita, no es necesario que me contestes a
-        no ser que me tengas que dar acceso, por alarmas, avisos a conserjería,
+        no ser que tengas que darme acceso por alarmas, avisos a conserjería,
         etc., de la misma manera lo haré al salir.
       </li>
       <li>
         • En casa, todas las estancias a las que el gato no debe acceder,
-        deberán de tener las puertas cerradas, yo no las abriré a no ser que sea
+        deberán tener las puertas cerradas, yo no las abriré a no ser que sea
         imprescindible o por indicación tuya.
       </li>
       <li>
@@ -19,7 +19,7 @@ export const Visit = () => (
       </li>
       <li>
         • La limpieza del arenero se realizará en cada visita que haga y los
-        residuos, me los llevaré para depositarlos en la basura, así como latas
+        residuos me los llevaré para depositarlos en la basura, así como latas
         vacías y demás para no dejar residuos en el domicilio que puedan
         provocar mal olor.
       </li>
@@ -33,7 +33,7 @@ export const Visit = () => (
       </li>
       <li>
         • Si hay algún tipo de incidencia no urgente, te informaré al finalizar
-        mi visita mediante mensaje. Sólo te contactaré mediante llamada
+        mi visita mediante mensaje. Solo te contactaré mediante llamada
         telefónica si hay alguna urgencia.
       </li>
     </ul>
